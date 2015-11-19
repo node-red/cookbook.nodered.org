@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Node-RED{% if page.title %} : {{ page.title }}{% endif %}</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+    <script src="/jquery/js/jquery-1.9.1.js"></script>
+	<link href="/css/simplegrid.css" rel="stylesheet" media="screen">
+	<link href="/css/style.css" rel="stylesheet" media="screen">
+	<link href="/css/front.css" rel="stylesheet" media="screen">
+	<link href="/css/docs.css" rel="stylesheet" media="screen">
+	<link href="/css/blog.css" rel="stylesheet" media="screen">
+	<link href="/css/syntax.css" rel="stylesheet" media="screen">
+    {% if page.url contains "/api/" %}<link href="/css/api.css" rel="stylesheet" media="screen">{% endif %}
+</head>
+<body>
+
+<div class="header">
+    <div class="header-content">
+        <div class="brand"><a href="/"><img class="logo" src="/node-red.png" /> Node-RED</a></div>
+        <ul class="navigation">
+            <li><a href="http://nodered.org">home</a></li>
+            <li><a href="http://blog.nodered.org/">blog</a></li>
+            <li><a href="/docs/">documentation</a></li>
+            <li class="current"><a href="http://cookbook.nodered.org">cookbook</a></li>
+            <li><a href="http://flows.nodered.org/">flows</a></li>
+            <li><a href="http://github.com/node-red/node-red">github</a></li>
+        </ul>
+        <a href="#" class="menu"><i class="icon-reorder icon-2x"></i></a>
+    </div>
+</div>

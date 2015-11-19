@@ -1,0 +1,187 @@
+body {
+    color: #555;
+    background: #eee;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a.button {
+    box-shadow: rgba(0,0,0,0.4) 5px 5px 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 60px;
+    border-radius: 5px;
+    background: #aa6767;
+    color: #eee;
+}
+a.button:hover {
+    background: #7F4545;
+}
+h1,h2,h3,h4,h5 {
+    font-family: "Roboto Slab";
+    font-weight: normal;
+}
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 18px;
+}
+
+/**** HEADER ****/
+.header {
+    font-family: "Roboto Slab";
+    font-size: 20px;
+    line-height: 50px;
+    color: #999;
+    padding: 0px 10px;
+    min-height: 50px;
+    background: #333;
+}
+.header-content {
+    width: 100%;
+	max-width: 1155px;
+	min-width: 755px;
+	margin: 0 auto;
+    background: #333;
+    border-bottom: 5px solid #333;
+}
+.header-content .brand {
+    display: inline-block;
+    width: 160px;
+    color: #f6f6f6;
+    float: left;
+    margin-top: 5px;
+}
+.header-content .logo {
+    vertical-align: middle;
+    height: 20px;
+}
+.header-content a {
+    color: #999;
+}
+.header-content ul {
+    margin-left: 170px;
+    text-align: right;
+    list-style-type: none;
+    margin: -0;
+    padding: 0;
+}
+.header-content li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.header-content li a {
+    display: block;
+    font-size: 16px;
+    padding: 0 15px 0 15px;
+}
+.header-content li.current a {
+    color: #fff;
+    border-bottom: 5px solid #fff;
+}
+.header a:hover {
+    text-decoration: none;
+    color: #eee;
+}
+.header ul a:hover {
+    border-bottom: 5px solid #eee;
+}
+
+.header .menu {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    display: none;
+    width: 55px;
+    height: 45px;
+    color: #999;
+    text-align: center;
+}
+    
+
+/**** END HEADER ****/
+
+.footer {
+    background: #333;
+}
+
+.footer .grid {
+    color: #eee;
+    padding: 20px 0;
+    font-family: Arial;
+}
+.footer a {
+    color: #eee;
+}
+
+.footer .content {
+    height: auto;
+    min-height: 0;
+    margin: 20px auto;
+}
+
+.footer .headline {
+    margin: 80px auto 20px auto;
+}
+.footer {
+    text-align: center;
+}
+
+.ets-link {
+    margin: 10px 0px;
+    
+}
+.ets-globe {
+    width: 60px;
+    vertical-align: middle;
+}
+.hide {
+    display: none;
+}
+@media handheld, only screen and (max-width: 755px) {
+    
+    .header .menu {
+        display: inline-block;
+    }
+    
+    .header-content {
+        min-width: 0;
+    }
+    
+    .header-content .brand {
+        float: none;
+    }
+    .header-content ul {
+        display: none;
+        margin: 0;
+        text-align: right;
+    }
+
+    .header-content li {
+        display: block;
+        line-height: 26px;
+    }
+    .header-content li.current a {
+        border: none;
+    }
+    .header ul a:hover {
+        border: none;
+    }
+}
+
+
