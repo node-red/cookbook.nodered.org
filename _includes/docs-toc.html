@@ -1,19 +1,8 @@
 <ul class="toc">
-    <li class="tocheader"><span>Documentation</span>
+    <li class="tocheader"><span>Cookbook</span>
         <ul>
-            <li><a href="/" {% if page.url == "/index.html" %}class="active"{% endif %}>Overview</a>
-        </ul>
-    </li>
-    <li class="tocheader"><span>Basics</span>
-        <ul>
-        </ul>
-    </li>
-    <li class="tocheader"><span>HTTP</span>
-        <ul>
-        </ul>
-    </li>
-    <li class="tocheader"><span>MQTT</span>
-        <ul>
+            <li {% if page.url == "/index.html" %}class="active"{% endif %}><a href="/">Overview</a>
+            <li {% if page.url contains "/http/" %}class="active"{% endif %}><a href="/http/">HTTP</a>
         </ul>
     </li>
 </ul>
