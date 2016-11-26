@@ -6,10 +6,10 @@ title: HTTP Recipes
 - [Create an HTTP Endpoint](create-an-http-endpoint.html)
 - [Handle query parameters passed to an HTTP endpoint](handle-query-parameters.html)
 - [Handle url parameters in an HTTP endpoint](handle-url-parameters.html)
-- Access HTTP request headers
-- Include data captured in another flow
-- Serve JSON content
-- Serve a local file
+- [Access HTTP request headers](access-http-request-headers.html)
+- [Include data captured in another flow](include-data-from-another-flow.html)
+- [Serve JSON content](serve-json-content.html)
+- [Serve a local file](serve-a-local-file.html)
 - Post form/JSON data
 - Post raw data
 - Work with cookies

@@ -1,8 +1,15 @@
 {% include header.html %}
 <style>
-.docs-content pre {
+div.flow pre {
     max-height: 100px;
-    overflow-y: auto;
+    overflow-y: scroll;
+}
+div.shell pre {
+    background: #333;
+}
+div.shell pre code {
+    background: none;
+    color: #ccc;
 }
 code.node {
     border-radius: 6px;
