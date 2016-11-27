@@ -18,7 +18,7 @@ For example, a single endpoint that can handle requests to both:
 
 Use named path parameters in your <code class="node">HTTP In</code> node's `URL`
 property and then access the specific value provided in a request using the
-`req.params` property of the message.
+`msg.req.params` property of the message.
 
 #### Flow
 
@@ -49,7 +49,7 @@ path that can vary between requests.
 The `msg.req.params` property is an object of key/value pairs for each path parameter.
 
 In the above example, the node is configured with a URL of `/hello-params/:name`,
-so a request to `/hello-param/Nick` results in the message property containing:
+so a request to `/hello-param/Nick` results in the `msg.req.params` property containing:
 
 ~~~json
 {

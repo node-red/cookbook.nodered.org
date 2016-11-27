@@ -18,6 +18,14 @@ code.node {
     color: #555;
     white-space:nowrap;
 }
+.feedback {
+    float: right;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin: 20px 0;
+    font-size: 12px;
+}
 </style>
 <div class="docs">
   <div class="grid">
@@ -28,6 +36,7 @@ code.node {
       <div class="docs-content">
         <h1 class="docs-title">{{ page.title }}</h1>
         {{ content }}
+        <div class="feedback"><a href="https://github.com/node-red/cookbook.nodered.org/issues/new?title=Feedback%20on%20'{{page.title| xml_escape}}'">Got feedback about this page?  Let us know!</a></div>
       </div>
     </div>
   </div>

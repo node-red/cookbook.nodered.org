@@ -9,7 +9,7 @@ You want to access the HTTP headers sent in a request.
 
 ### Solution
 
-Use the `req.headers` property of the message sent by the <code class="node">HTTP In</code>
+Use the `msg.req.headers` property of the message sent by the <code class="node">HTTP In</code>
 node to access the headers.
 
 #### Example
@@ -34,5 +34,5 @@ node to access the headers.
 
 ### Discussion
 
-The `msg.headers` property is an object of key/value pairs for each request header.
+The `msg.req.headers` property is an object of key/value pairs for each request header.
 The header names are all lower-cased regardless of how they appear in the request.

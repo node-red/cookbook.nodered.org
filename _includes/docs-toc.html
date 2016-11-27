@@ -1,8 +1,20 @@
 <ul class="toc">
+    <li class="toc-expander"><div>V</div></li>
     <li class="tocheader"><span>Cookbook</span>
         <ul>
-            <li {% if page.url == "/index.html" %}class="active"{% endif %}><a href="/">Overview</a>
+            <li {% if page.url == "/" %}class="active"{% endif %}><a href="/">Overview</a>
             <li {% if page.url contains "/http/" %}class="active"{% endif %}><a href="/http/">HTTP</a>
         </ul>
     </li>
 </ul>
+<script>
+$(function() {
+    $(".toc-expander").click(function() {
+        if ($("ul.toc").hasClass('open')) {
+            $("ul.toc").removeClass('open');
+        } else {
+            $("ul.toc").addClass('open');
+        }
+    })
+});
+</script>

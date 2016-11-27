@@ -11,7 +11,7 @@ You want to access the query parameters passed to an HTTP endpoint, such as:
 
 ### Solution
 
-Use the `req.query` property of the message sent by the <code class="node">HTTP In</code>
+Use the `msg.req.query` property of the message sent by the <code class="node">HTTP In</code>
 node to access the parameters.
 
 #### Example
@@ -36,7 +36,7 @@ node to access the parameters.
 
 ### Discussion
 
-The `req.query` property is an object of key/value pairs for each query parameter.
+The `msg.req.query` property is an object of key/value pairs for each query parameter.
 
 In the above example, a request to `/hello-query?name=Nick&colour=blue` results in the property
 containing:

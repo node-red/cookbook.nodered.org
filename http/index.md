@@ -10,8 +10,9 @@ title: HTTP Recipes
 - [Include data captured in another flow](include-data-from-another-flow.html)
 - [Serve JSON content](serve-json-content.html)
 - [Serve a local file](serve-a-local-file.html)
-- Post form/JSON data
-- Post raw data
+- [Post raw data to a flow](post-raw-data-to-a-flow.html)
+- [Post form data to a flow](post-form-data-to-a-flow.html)
+- [Post JSON data to a flow](post-json-data-to-a-flow.html)
 - Work with cookies
 - Simple GET request
 - Set the url of a request
