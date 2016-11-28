@@ -3,6 +3,8 @@ layout: default
 title: HTTP Recipes
 ---
 
+#### HTTP endpoints
+
 - [Create an HTTP Endpoint](create-an-http-endpoint.html)
 - [Handle query parameters passed to an HTTP endpoint](handle-query-parameters.html)
 - [Handle url parameters in an HTTP endpoint](handle-url-parameters.html)
@@ -13,7 +15,9 @@ title: HTTP Recipes
 - [Post raw data to a flow](post-raw-data-to-a-flow.html)
 - [Post form data to a flow](post-form-data-to-a-flow.html)
 - [Post JSON data to a flow](post-json-data-to-a-flow.html)
-- Work with cookies
+- [Work with cookies](work-with-cookies.html)
+
+#### HTTP requests
 - Simple GET request
 - Set the url of a request
 - Set the url of a request using a template
