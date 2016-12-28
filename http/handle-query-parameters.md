@@ -18,10 +18,12 @@ node to access the parameters.
 
 ![](/images/http/http-flow-002.png)
 
+{% raw %}
 ~~~json
 [{"id":"b34dd1af.4cb23","type":"template","z":"3045204d.cfbae","name":"page","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"<html>\n    <head></head>\n    <body>\n        <h1>Hello {{req.query.name}}!</h1>\n    </body>\n</html>","x":290,"y":180,"wires":[["b828f6a6.47d708"]]},{"id":"1052941d.efad6c","type":"http in","z":"3045204d.cfbae","name":"","url":"/hello-query","method":"get","swaggerDoc":"","x":120,"y":180,"wires":[["b34dd1af.4cb23"]]},{"id":"b828f6a6.47d708","type":"http response","z":"3045204d.cfbae","name":"","x":430,"y":180,"wires":[]}]
 ~~~
 {: .flow}
+{% endraw %}
 
 ~~~text
 [~]$ curl http://localhost:1880/hello-query?name=Nick

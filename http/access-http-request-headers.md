@@ -16,10 +16,12 @@ node to access the headers.
 
 ![](/images/http/http-flow-004.png)
 
+{% raw %}
 ~~~json
 [{"id":"c1460268.3eba","type":"http in","z":"3045204d.cfbae","name":"","url":"/hello-headers","method":"get","swaggerDoc":"","x":130,"y":380,"wires":[["24199456.dbe66c"]]},{"id":"24199456.dbe66c","type":"template","z":"3045204d.cfbae","name":"page","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"<html>\n    <head></head>\n    <body>\n        <h1>User agent: {{req.headers.user-agent}}</h1>\n    </body>\n</html>","x":310,"y":380,"wires":[["b3531892.4cace8"]]},{"id":"b3531892.4cace8","type":"http response","z":"3045204d.cfbae","name":"","x":450,"y":380,"wires":[]}]
 ~~~
 {: .flow}
+{% endraw %}
 
 ~~~text
 [~]$ curl http://localhost:1880/hello-headers

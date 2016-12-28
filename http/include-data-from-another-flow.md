@@ -15,10 +15,12 @@ Store data using `flow context` so that it can be retrieved within the HTTP flow
 
 ![](/images/http/http-flow-005.png)
 
+{% raw %}
 ~~~json
 [{"id":"92eaf6c0.6d1508","type":"inject","z":"3045204d.cfbae","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":100,"y":480,"wires":[["8055b557.7faa48"]]},{"id":"8055b557.7faa48","type":"change","z":"3045204d.cfbae","name":"Store time","rules":[{"t":"set","p":"timestamp","pt":"flow","to":"payload","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":270,"y":480,"wires":[[]]},{"id":"93bf2335.6c40e","type":"http in","z":"3045204d.cfbae","name":"","url":"/hello-data","method":"get","swaggerDoc":"","x":120,"y":520,"wires":[["9e3aa25e.61c56"]]},{"id":"9e3aa25e.61c56","type":"change","z":"3045204d.cfbae","name":"Copy time","rules":[{"t":"set","p":"timestamp","pt":"msg","to":"timestamp","tot":"flow"}],"action":"","property":"","from":"","to":"","reg":false,"x":310,"y":520,"wires":[["f2c385a.f0d3c78"]]},{"id":"f2c385a.f0d3c78","type":"template","z":"3045204d.cfbae","name":"page","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"<html>\n    <head></head>\n    <body>\n        <h1>Time: {{ timestamp }}</h1>\n    </body>\n</html>","x":470,"y":520,"wires":[["def756a1.2108a8"]]},{"id":"def756a1.2108a8","type":"http response","z":"3045204d.cfbae","name":"","x":610,"y":520,"wires":[]}]
 ~~~
 {: .flow}
+{% endraw %}
 
 ~~~text
 [~]$ curl http://localhost:1880/hello-data

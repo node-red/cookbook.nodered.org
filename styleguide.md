@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cookbook Style Guide
+lcb: "{"
 ---
 
 The cookbook recipes are intended to be task-focused guides to solving specific
@@ -29,10 +30,12 @@ Use the <code class="node">Inject</code> node to do X.
 ![](/images/flow-image.png)
 
 > Paste a sample flow json that can be imported by the reader
+{{ page.lcb }}% raw %}
 ~~~json
 [{"id":"7c87b536.83784c","type":"inject","z":"55635136.aa9cb","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":100,"y":80,"wires":[["7de918a6.8216e8"]]}]
 ~~~
 {: .flow}
+{{ page.lcb }}% endraw %}
 
 > If the recipe can be meaningfully demonstrated in action via static text, add it here.
 
@@ -65,10 +68,12 @@ Use the <code class="node">HTTP In</code> node to ...
 #### Example flows
 
 ~~~~~markdown
+{{ page.lcb }}% raw %}
 ~~~json
 > insert flow json here. It should be minified and on a single line.
 ~~~
 {: .flow}
+{{ page.lcb }}% endraw %}
 ~~~~~
 
 #### Terminal output

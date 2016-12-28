@@ -24,10 +24,12 @@ property and then access the specific value provided in a request using the
 
 ![](/images/http/http-flow-003.png)
 
+{% raw %}
 ~~~json
 [{"id":"ce53954b.31ac68","type":"http response","z":"3045204d.cfbae","name":"","x":490,"y":280,"wires":[]},{"id":"288a7c0.fd77584","type":"template","z":"3045204d.cfbae","name":"page","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"<html>\n    <head></head>\n    <body>\n        <h1>Hello {{req.params.name}}!</h1>\n    </body>\n</html>","x":350,"y":280,"wires":[["ce53954b.31ac68"]]},{"id":"7665c67d.899a38","type":"http in","z":"3045204d.cfbae","name":"","url":"/hello-param/:name","method":"get","swaggerDoc":"","x":150,"y":280,"wires":[["288a7c0.fd77584"]]}]
 ~~~
 {: .flow}
+{% endraw %}
 
 #### Example
 ~~~text
