@@ -18,7 +18,7 @@ title: HTTP Recipes
 - [Work with cookies](work-with-cookies.html)
 
 #### HTTP requests
-- Simple GET request
+- [Simple GET request](simple-get-request.html)
 - Set the url of a request
 - Set the url of a request using a template
 - Set query string parameters
