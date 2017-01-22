@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Set the query string of a URL
+title: Set the query string parameters in a URL
 ---
 
 ### Problem
 
-You want to set the query string parameters of a URL in a HTTP request.
+You want to set the query string parameters of a URL for an HTTP request.
 
 ### Solution
 
-Use the <code class="node">HTTP Request</code> node's support for [mustache]() to substitute query parameter strings in URLs directly.
+Use the <code class="node">HTTP Request</code> node's support for [mustache](http://mustache.github.io/mustache.5.html) to substitute query parameter strings in URLs directly.
 
 #### Example
 
@@ -22,7 +22,7 @@ Use the <code class="node">HTTP Request</code> node's support for [mustache]() t
 {: .flow}
 {% endraw %}
 
-The <code class="node">Inject</code> node generates a query string that is to be sent in the URL.  The <code class="node">Change</code> node changes this to `msg.query` which is substituted in the mustache template in the HTTP Request node URL property configured as:
+The <code class="node">Inject</code> node generates a query string that is to be sent in the URL.  The <code class="node">Change</code> node changes this to `msg.query` which is substituted in the mustache template in the <code class="node">HTTP Request</code> node URL property configured as shown:
 
 {% raw %}
 ~~~text

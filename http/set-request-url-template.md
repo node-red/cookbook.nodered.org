@@ -9,7 +9,7 @@ You want to set the URL of an HTTP request using a <code class="node">Template</
 
 ### Solution
 
-Configure the <code class="node">Template</code> node to generate a `message.url` property.  The Template node can also be used to generate the URL dynamically using message properties.
+Configure the <code class="node">Template</code> node to generate a `message.url` property.  The <code class="node">Template</code> node can then be used to generate the URL dynamically using message properties.
 
 #### Example
 
@@ -22,7 +22,7 @@ Configure the <code class="node">Template</code> node to generate a `message.url
 {: .flow}
 {% endraw %}
 
-In this flow, the Inject node sends an id for a post we would like to request from an API.  The Change node changes this to `msg.post`.  The Template node generates a URL by substituting `msg.post` in the URL using [mustache templating](http://mustache.github.io/mustache.5.html).
+In this flow, the <code class="node">Inject</code> node sends an id for a post we would like to request from an API.  The <code class="node">Change</code> node changes this to `msg.post`.  The <code class="node">Template</code> node generates a URL by substituting `msg.post` in the URL using [mustache templating](http://mustache.github.io/mustache.5.html).
 
 {% raw %}
 ~~~text
