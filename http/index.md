@@ -19,9 +19,9 @@ title: HTTP Recipes
 
 #### HTTP requests
 - [Simple GET request](simple-get-request.html)
-- Set the url of a request
-- Set the url of a request using a template
-- Set query string parameters
+- [Set the url of a request](set-request-url.html)
+- [Set the url of a request using a template](set-request-url-template.html)
+- [Set query string parameters](set-query-string.html)
 - Get a parsed JSON response
 - Get a binary response
 - Set a request header
