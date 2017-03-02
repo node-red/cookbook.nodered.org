@@ -9,7 +9,8 @@ You need to send an HTTP request with a specific request header.
 
 ### Solution
 
-Set the `msg.headers` field to the field value pairs of the request headers you would like to include in the message sent to the <code class="node">HTTP request</code> node.
+Set the `msg.headers` field to the field value pairs of the request headers you would like to include in the
+message sent to the <code class="node">HTTP request</code> node.
 
 #### Example
 
@@ -22,9 +23,11 @@ Set the `msg.headers` field to the field value pairs of the request headers you 
 {: .flow}
 {% endraw %}
 
-In this example we needed to set the `X-Auth-User` and `X-Auth-Key` custom headers to be able to call a private HTTP input node on the FRED Node-RED cloud service.
+In this example we set the `X-Auth-User` and `X-Auth-Key` custom headers to call a
+private HTTP input node on the FRED Node-RED cloud service.
 
-The code in the <code class="node">Function</code> below node adds these additional message fields by adding a `msg.headers` object, and setting the header field/values as shown.
+The code in the <code class="node">Function</code> node below adds these additional message
+fields by adding a `msg.headers` object, and setting the header field/values in this object as shown.
 
 {% raw %}
 ~~~text

@@ -9,7 +9,9 @@ You want to return a parsed JSON response of an HTTP request.
 
 ### Solution
 
-The <code class="node">HTTP Request</code> node will return a the body of a JSON response in the `payload` as a string by default.  Change the Return configuration of this node to `a parsed JSON object` to return a parsed JSON response in the `msg.payload` that can be easily accessed by downstream nodes.
+The <code class="node">HTTP Request</code> node will return a the body of a JSON response in the `msg.payload` as a string by default.
+Change the `Return` configuration of this node to `a parsed JSON object` to return a parsed JSON response in the `msg.payload` that
+can be easily accessed by downstream nodes.
 
 #### Example
 
@@ -22,7 +24,9 @@ The <code class="node">HTTP Request</code> node will return a the body of a JSON
 {: .flow}
 {% endraw %}
 
-We have simly reconfigured the flow from the [Set the URL of a Request URL recipe](set-request-url.html) by changing the <code class="node">HTTP Request</code> node configuration.  The <code class="node">Debug</code> node has been modified to display only the `title` property of the parsed response below:
+We have reconfigured the flow from the [Set the URL of a Request URL recipe](set-request-url.html)
+by changing the <code class="node">HTTP Request</code> node configuration.  The <code class="node">Debug</code>
+node has been modified to display only the `title` property of the parsed JSON response below:
 
 {% raw %}
 ~~~text

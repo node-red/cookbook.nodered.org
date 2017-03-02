@@ -9,9 +9,8 @@ You want to get a binary HTTP response from an HTTP request.
 
 ### Solution
 
-Change the Return configuration in an HTTP Request node to return the HTTP response as a a the body of a binary buffer in the `msg.payload`.
-
-The <code class="node">HTTP Request</code> node will return a the body of a response in the `payload` as a string by default.  Change the `Return` configuration of this node to `a binary buffer` to return the response as a binary buffer in the `msg.payload`.
+The <code class="node">HTTP Request</code> node will return a the body of a response in the `msg.payload` as a string by default.
+Change the `Return` configuration of this node to `a binary buffer` to return the response as a binary buffer in the `msg.payload`.
 
 #### Example
 
@@ -24,7 +23,9 @@ The <code class="node">HTTP Request</code> node will return a the body of a resp
 {: .flow}
 {% endraw %}
 
-We have modified the flow from the [Set the URL of a Request URL recipe](set-request-url.html) by changing the <code class="node">HTTP Request</code> node Return configuration to `a binary buffer`.  The <code class="node">Debug</code> node has will display the payload as a binary buffer such as:
+We have modified the flow from the [Set the URL of a Request URL recipe](set-request-url.html) by changing the
+<code class="node">HTTP Request</code> node `Return` configuration to `a binary buffer`.  The <code class="node">Debug</code> node
+will display the payload as a binary buffer such as:
 
 {% raw %}
 ~~~text
