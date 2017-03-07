@@ -22,6 +22,6 @@ title: HTTP Recipes
 - [Set the url of a request](set-request-url.html)
 - [Set the url of a request using a template](set-request-url-template.html)
 - [Set query string parameters](set-query-string.html)
-- Get a parsed JSON response
-- Get a binary response
-- Set a request header
+- [Get a parsed JSON response](parse-json-response.html)
+- [Get a binary response](get-binary-response.html)
+- [Set a request header](set-request-header.html)
