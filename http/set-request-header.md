@@ -5,7 +5,7 @@ title: Set a request header
 
 ### Problem
 
-You need to send an HTTP request with a specific request header.
+You need to send an HTTP request with specific request headers.
 
 ### Solution
 
@@ -23,7 +23,7 @@ message sent to the <code class="node">HTTP request</code> node.
 {: .flow}
 {% endraw %}
 
-In this example we set the `X-Auth-User` and `X-Auth-Key` custom headers to call a
+In this example we set the `X-Auth-User` and `X-Auth-Key` request headers to call a
 private HTTP input node on the FRED Node-RED cloud service.
 
 The code in the <code class="node">Function</code> node below adds these additional message

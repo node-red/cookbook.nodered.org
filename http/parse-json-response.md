@@ -5,12 +5,12 @@ title: Get a parsed JSON Response
 
 ### Problem
 
-You want to return a parsed JSON response of an HTTP request.
+You want to return the JSON response of an HTTP request as a parsed Javascript object.
 
 ### Solution
 
 The <code class="node">HTTP Request</code> node will return a the body of a JSON response in the `msg.payload` as a string by default.
-Change the `Return` configuration of this node to `a parsed JSON object` to return a parsed JSON response in the `msg.payload` that
+Change the `Return` configuration of this node to `a parsed JSON object` to parse the JSON response in the `msg.payload` that
 can be easily accessed by downstream nodes.
 
 #### Example
@@ -26,7 +26,7 @@ can be easily accessed by downstream nodes.
 
 We have reconfigured the flow from the [Set the URL of a Request URL recipe](set-request-url.html)
 by changing the <code class="node">HTTP Request</code> node configuration.  The <code class="node">Debug</code>
-node has been modified to display only the `title` property of the parsed JSON response below:
+node has been modified to display only the `title` property of the parsed JSON response:
 
 {% raw %}
 ~~~text
@@ -34,6 +34,6 @@ node has been modified to display only the `title` property of the parsed JSON r
 ~~~
 {% endraw %}
 
-#### Discussion
+### Discussion
 
-The <code class="node">XML</code> node can be used to parse Javascript objects from XML documents returned in an HTTP response as a string.
+If your HTTP request returns XML, the <code class="node">XML</code> node can be used to parse Javascript objects from XML documents.
