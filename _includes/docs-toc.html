@@ -1,8 +1,13 @@
 <ul class="toc">
     <li class="toc-expander"><div>V</div></li>
-    <li class="tocheader"><span>Cookbook</span>
+    <li class="tocheader">
         <ul>
-            <li {% if page.url == "/" %}class="active"{% endif %}><a href="/">Overview</a>
+            <li class="toctitle active"><a href="/">Cookbook</a>
+        </ul>
+    </li>
+    <li class="tocheader">
+        <ul>
+            <li {% if page.url contains "/basic/" %}class="active"{% endif %}><a href="/basic/">Basics</a>
             <li {% if page.url contains "/http/" %}class="active"{% endif %}><a href="/http/">HTTP</a>
         </ul>
     </li>
