@@ -8,9 +8,9 @@
 
 #### Flow control
 
-- Trigger a flow whenever Node-RED starts
-- Trigger a flow at regular intervals
-- Trigger a flow at a specific time
+- [Trigger a flow whenever Node-RED starts](/basic/trigger-on-start)
+- [Trigger a flow at regular intervals](/basic/trigger-at-interval)
+- [Trigger a flow at a specific time](/basic/trigger-at-time)
 - Route a message based on one of its properties
 - Route a message based on a context property
 - Perform an operation on each element in an array
