@@ -17,17 +17,13 @@ Use the <code class="node">HTTP Request</code> node to make HTTP requests and an
 
 {% raw %}
 ~~~json
-[{"id":"2fcc167e.b6f18a","type":"inject","z":"eda2a949.74ea98","name":"make request","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":141,"y":102,"wires":[["68587eb0.051ad"]]},{"id":"68587eb0.051ad","type":"http request","z":"eda2a949.74ea98","name":"","method":"GET","ret":"txt","url":"https://www.google.com/finance","tls":"","x":305.5,"y":102,"wires":[["292a93f0.7f8fac"]]},{"id":"9835e7c5.d487a8","type":"debug","z":"eda2a949.74ea98","name":"","active":true,"console":"false","complete":"false","x":638,"y":102,"wires":[]},{"id":"292a93f0.7f8fac","type":"html","z":"eda2a949.74ea98","name":"","tag":"td.bld span","ret":"html","as":"single","x":472.5,"y":102,"wires":[["9835e7c5.d487a8"]]}]
+[{"id":"d88dd470.0ac7b8","type":"inject","z":"18c99b30.cf9d35","name":"make request","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":130,"y":180,"wires":[["874a3d4e.9b666"]]},{"id":"874a3d4e.9b666","type":"http request","z":"18c99b30.cf9d35","name":"","method":"GET","ret":"txt","url":"https://www.npmjs.com/package/node-red","tls":"","x":294.5,"y":180,"wires":[["90243cc1.87edc"]]},{"id":"7403c68f.21d7c8","type":"debug","z":"18c99b30.cf9d35","name":"","active":true,"console":"false","complete":"false","x":650,"y":180,"wires":[]},{"id":"90243cc1.87edc","type":"html","z":"18c99b30.cf9d35","name":"","property":"","tag":".pretty-number","ret":"text","as":"single","x":471.5,"y":180,"wires":[["7403c68f.21d7c8"]]}]
 ~~~
 {: .flow}
 {% endraw %}
 
-To find content in a web page, the Chrome browser’s ‘Inspect Element’ can be a useful tool.  Using the browser, right click on a page element to see the tags, ids and classes applied to an element.
+To find content in a web page, the Chrome browser’s ‘Inspect Element’ can be a useful tool.  Using the browser, right click on a page element to see the tags, ids and classes applied to an element as shown.
 
-In this example we want to extract the Dow Jones, S&P 500 and Nasdaq indexes from the Google finance page at [`http://www.google.com/finance`](http://www.google.com/finance) shown below.  Using the inspector we can see the indexes are in a `<span>` tag inside a `<td>` tag with the class `bld`. The appropriate CSS selector is `td.bld span`.
+In this example we extract the download statistics for Node-RED from the npm page at [`https://www.npmjs.com/package/node-red`](https://www.npmjs.com/package/node-red) shown below.  Using the inspector we can see the download statistics are conveniently located in a `<strong>` tag with the class `pretty-number`. The CSS selector `.pretty-number` works.  This flow displays an array of download statistics in the debug window.
 
 ![](/images/http/http-flow-011-example-page.png)
-
-
-
-
