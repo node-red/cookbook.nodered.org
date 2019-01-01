@@ -9,7 +9,8 @@ You want to make a simple GET request to a web site and extract useful informati
 
 ### Solution
 
-Use the <code class="node">HTTP Request</code> node to make HTTP requests and an <code class="node">HTML</code> node to extract elements from the retrieved html document.
+Use the <code class="node">HTTP Request</code> node to make an HTTP request and an
+<code class="node">HTML</code> node to extract elements from the retrieved html document.
 
 #### Example
 
@@ -22,8 +23,15 @@ Use the <code class="node">HTTP Request</code> node to make HTTP requests and an
 {: .flow}
 {% endraw %}
 
-To find content in a web page, the Chrome browser’s ‘Inspect Element’ can be a useful tool.  Using the browser, right click on a page element to see the tags, ids and classes applied to an element as shown.
+To find content in a web page, the Chrome browser’s ‘Inspect Element’ can be a
+useful tool.  Using the browser, right click on a page element to see the tags,
+ids and classes applied to an element as shown.
 
-In this example we extract the download statistics for Node-RED from the npm page at [`https://www.npmjs.com/package/node-red`](https://www.npmjs.com/package/node-red) shown below.  Using the inspector we can see the download statistics are conveniently located in a `<strong>` tag with the class `pretty-number`. The CSS selector `.pretty-number` works.  This flow displays an array of download statistics in the debug window.
+In this example we retrieve the latest version of Node-RED from https://nodered.org.
+Using the inspector we can see the version is located in a `<span>` tag with the
+class `node-red-latest-version`.
+
+The <code class="node">HTML</code> node can be configured with the CSS selector
+`.node-red-latest-version` to return a message for each matching element.
 
 ![](/images/http/http-flow-011-example-page.png)
