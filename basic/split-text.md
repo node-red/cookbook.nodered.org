@@ -5,7 +5,7 @@ title: Split text into one message per line
 
 ### Problem
 
-You want to split a text, one message per line. Each line will generate a separate <code class="highlighter-rouge">msg.payload</code> `.
+You want to split a text, one message per line. Each line will generate a separate <code class="highlighter-rouge">msg.payload</code> .
 
 ### Solution
 
