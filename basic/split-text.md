@@ -24,5 +24,5 @@ Use a <code class="node">Split</code> node with the default configuration to sep
 
 ### Discussion
 
-We show two different ways to achieve the desired goal. In the first flow each splitted message will be sent immediatelly. 
-In the second flow each line is stored as an element in an array in the <code class="node">Function</code> node. This can be useful should you need to perform any operation with the lines, like deleting or adding.
+We show two different ways to perform the text splitting. In the first flow each splitted message will be sent immediatelly to the following node. 
+In the second flow each line is stored as an element in an array in the <code class="node">Function</code> node. This can be useful should you need to perform any operation with array elements.
