@@ -5,11 +5,11 @@ title: Split text into one message per line
 
 ### Problem
 
-You want to split a text, one message per line. Each line will generate a separate `msg.payload`.
+You want to split a text, one message per line. Each line will generate a separate <code class="highlighter-rouge">msg.payload</code> `.
 
 ### Solution
 
-Use a <code class="node">Split</code> node with the default configuration to separate strings using the sequence `\n`.
+Use a <code class="node">Split</code> node with the default configuration to separate strings using the sequence <code class="highlighter-rouge">\n</code>.
 
 #### Example
 
