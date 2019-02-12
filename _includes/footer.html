@@ -44,6 +44,32 @@
         var s = $(".navigation").slideToggle('hide');
         e.preventDefault();
     });
+
+    $(".flow").hide();
+    $('<button class="copy-button" type="button">Copy</button>').prependTo(".flow").click(function(e) {
+        var ta = document.createElement('textarea');
+        ta.value = $(this).next()[0].innerText;
+        ta.style.position = 'absolute';
+        ta.style.left = '-3000px';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        $(this).text("Copied!");
+        var self = $(this);
+        setTimeout(function() {
+            self.text("Copy");
+        },3000)
+    })
+    $('<button class="show-flow-button" type="button">Show flow</button>').insertBefore(".flow").click(function(e) {
+        if ($(".flow").is(":visible")) {
+            $(".flow").slideUp();
+            $(this).text("Show flow");
+        } else {
+            $(".flow").slideDown();
+            $(this).text("Hide flow");
+        }
+    })
   });
 </script>
 </body>

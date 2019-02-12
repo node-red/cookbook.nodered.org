@@ -11,7 +11,7 @@
 - [Trigger a flow whenever Node-RED starts](/basic/trigger-on-start)
 - [Trigger a flow at regular intervals](/basic/trigger-at-interval)
 - [Trigger a flow at a specific time](/basic/trigger-at-time)
-- Route a message based on one of its properties
+- [Route a message based on one of its properties](/basic/route-on-property)
 - Route a message based on a context property
 - Perform an operation on each element in an array
 - Trigger a flow if a message isn't received after a defined time
