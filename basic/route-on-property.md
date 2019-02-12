@@ -5,7 +5,7 @@ title: Route a message based on one of its properties
 
 ### Problem
 
-You want to route the message to different flows according to the value of the
+You want to route a message to different flows according to the value of the
 `msg.topic` property. For example, you have an <code class="node">MQTT</code> node
 subscribed to multiple sensors and you want to pass the messages to different
 Dashboard <code class="node">ui_gauge</code> nodes.
