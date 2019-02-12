@@ -13,7 +13,7 @@
 - [Trigger a flow at a specific time](/basic/trigger-at-time)
 - [Route a message based on one of its properties](/basic/route-on-property)
 - [Route a message based on a context value](/basic/route-on-context)
-- Perform an operation on each element in an array
+- [Perform an operation on each element in an array](/basic/operate-on-array)
 - Trigger a flow if a message isn't received after a defined time
 - Limit the rate of messages passing through a flow
 - Trigger a flow when a message property changes value
