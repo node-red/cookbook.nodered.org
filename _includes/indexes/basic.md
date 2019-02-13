@@ -19,7 +19,6 @@
 - [Slow down messages passing through a flow](/basic/rate-limit-messages)
 - [Handle messages at a regular rate](/basic/rate-limit-message-stream)
 - [Drop messages that have not changed value](/basic/report-by-exception)
-- Create a simple state machine
 
 #### Error handling
 
