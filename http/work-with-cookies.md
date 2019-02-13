@@ -17,7 +17,7 @@ in order to set or clear cookies.
 
 #### Example
 
-![](/images/http/http-flow-010.png)
+![](/images/http/work-with-cookies.png)
 
 {% raw %}
 ~~~json

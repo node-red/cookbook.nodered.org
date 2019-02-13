@@ -15,7 +15,7 @@ the form data as properties of `msg.payload`.
 
 #### Example
 
-![](/images/http/http-flow-008.png)
+![](/images/http/post-form-data-to-a-flow.png)
 
 {% raw %}
 ~~~json

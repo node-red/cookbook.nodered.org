@@ -15,7 +15,7 @@ can be easily accessed by downstream nodes.
 
 #### Example
 
-![](/images/http/http-flow-015.png)
+![](/images/http/parse-json-response.png)
 
 {% raw %}
 ~~~json

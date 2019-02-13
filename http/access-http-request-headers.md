@@ -14,7 +14,7 @@ node to access the headers.
 
 #### Example
 
-![](/images/http/http-flow-004.png)
+![](/images/http/access-http-request-headers.png){:width="800px"}
 
 {% raw %}
 ~~~json

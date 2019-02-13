@@ -15,7 +15,7 @@ set the `Content-Type` to the appropriate value for the file type being returned
 
 #### Example
 
-![](/images/http/http-flow-007.png)
+![](/images/http/serve-a-local-file.png)
 
 {% raw %}
 ~~~json

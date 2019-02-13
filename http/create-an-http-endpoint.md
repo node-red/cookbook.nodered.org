@@ -16,7 +16,7 @@ Use the <code class="node">HTTP In</code> node to listen for requests, a
 
 #### Example
 
-![](/images/http/http-flow-001.png)
+![](/images/http/create-an-http-endpoint.png)
 
 {% raw %}
 ~~~json

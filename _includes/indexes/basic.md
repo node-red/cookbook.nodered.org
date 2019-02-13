@@ -28,9 +28,10 @@
 
 #### Working with data formats
 
-- Convert to/from JSON
-- Convert to/from XML
-- Convert to/from YAML
-- Convert to/from CSV
-- Extracting data from an HTML page
-- Split text into one message per line
+- [Convert to/from JSON](/basic/convert-json)
+- [Convert to/from XML](/basic/convert-xml)
+- [Convert to/from YAML](/basic/convert-yaml)
+- [Generate CSV output](/basic/generate-csv)
+- [Parse CSV input](/basic/parse-csv)
+- [Extracting data from an HTML page](/http/simple-get-request)
+- [Split text into one message per line](/basic/split-text)

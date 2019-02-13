@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publish to a Topic
+title: Publish a retained message to a topic
 ---
 
 ### Problem
@@ -9,11 +9,13 @@ You want to publish a retained message to an MQTT topic on a broker.
 
 ### Solution
 
-Set the `Retain` option to `true` in the <code class="node">MQTT Output</code> node configuration dialog, or set the `retain` message property to `true` in the message sent to the output node.
+Set the `Retain` option to `true` in the <code class="node">MQTT Output</code> node
+configuration dialog, or set the `msg.retain` message property to `true` in the
+message sent to the node.
 
 #### Example
 
-![](/images/mqtt/mqtt-flow-004.png)
+![](/images/mqtt/publish-retained-message.png)
 
 {% raw %}
 ~~~json
@@ -24,4 +26,8 @@ Set the `Retain` option to `true` in the <code class="node">MQTT Output</code> n
 
 ### Discussion
 
-Once you have sent a retained message to a topic, all subscribers will receive that message when they subscribe.  In Node-RED this occurs when an <code class="node">MQTT Input</code> node is deployed.  To clear a previously retained topic from the broker, send a blank message to that topic with the retain flag set.
+Once you have sent a retained message to a topic, all subscribers will receive
+that message when they subscribe.
+
+To clear a previously retained topic from the broker, send a blank message to
+that topic with the retain flag set.

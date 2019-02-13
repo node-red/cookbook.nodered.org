@@ -16,7 +16,7 @@ node to access the parameters.
 
 #### Example
 
-![](/images/http/http-flow-002.png)
+![](/images/http/handle-query-parameters.png)
 
 {% raw %}
 ~~~json

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set Topic of Published Message
+title: Set the topic of a published message
 ---
 
 ### Problem
@@ -13,7 +13,7 @@ Set the `topic` message property, before sending the message to an <code class="
 
 #### Example
 
-![](/images/mqtt/mqtt-flow-003.png)
+![](/images/mqtt/set-publish-topic.png)
 
 {% raw %}
 ~~~json
@@ -24,4 +24,4 @@ Set the `topic` message property, before sending the message to an <code class="
 
 ### Discussion
 
-Ensure the `Topic` field in the <code class="node">MQTT Output</code> configuration dialog is left blank to use the `topic` message property..
+Ensure the `Topic` field in the <code class="node">MQTT Output</code> configuration dialog is left blank to use the `topic` message property.

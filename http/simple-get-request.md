@@ -14,7 +14,7 @@ Use the <code class="node">HTTP Request</code> node to make an HTTP request and 
 
 #### Example
 
-![](/images/http/http-flow-011.png)
+![](/images/http/simple-get-request.png)
 
 {% raw %}
 ~~~json
@@ -27,11 +27,11 @@ To find content in a web page, the Chrome browser’s ‘Inspect Element’ can 
 useful tool.  Using the browser, right click on a page element to see the tags,
 ids and classes applied to an element as shown.
 
-In this example we retrieve the latest version of Node-RED from https://nodered.org.
+In this example we retrieve the latest version of Node-RED from [https://nodered.org]().
 Using the inspector we can see the version is located in a `<span>` tag with the
 class `node-red-latest-version`.
 
 The <code class="node">HTML</code> node can be configured with the CSS selector
 `.node-red-latest-version` to return a message for each matching element.
 
-![](/images/http/http-flow-011-example-page.png)
+![](/images/http/simple-get-request-example-page.png)

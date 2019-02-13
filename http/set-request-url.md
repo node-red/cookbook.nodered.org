@@ -13,7 +13,7 @@ Set the URL property of the <code class="node">HTTP Request</code> node.
 
 #### Example
 
-![](/images/http/http-flow-012.png)
+![](/images/http/set-request-url.png)
 
 {% raw %}
 ~~~json
@@ -64,7 +64,3 @@ To return an RSS feed for cars for sale in Vancouver on Craigslist.  It returns 
 #### Discussion
 
 An <code class="node">XML</code> node can be added after the <code class="node">HTTP Request</code> to change the XML RSS content returned to a JavaScript object for easy access to the data.
-
-
-
-

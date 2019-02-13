@@ -13,7 +13,7 @@ Use the <code class="node">HTTP Request</code> node's support for [mustache](htt
 
 #### Example
 
-![](/images/http/http-flow-014.png)
+![](/images/http/set-query-string.png)
 
 {% raw %}
 ~~~json

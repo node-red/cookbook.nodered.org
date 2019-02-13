@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publish to a Topic
+title: Publish messages to a topic
 ---
 
 ### Problem
@@ -13,7 +13,7 @@ Use the <code class="node">MQTT Output</code> node to publish messages to a topi
 
 #### Example
 
-![](/images/mqtt/mqtt-flow-002.png)
+![](/images/mqtt/publish-to-topic.png)
 
 {% raw %}
 ~~~json

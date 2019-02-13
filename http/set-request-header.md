@@ -14,7 +14,7 @@ message sent to the <code class="node">HTTP request</code> node.
 
 #### Example
 
-![](/images/http/http-flow-017.png)
+![](/images/http/set-request-header.png)
 
 {% raw %}
 ~~~json

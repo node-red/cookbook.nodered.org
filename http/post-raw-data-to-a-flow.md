@@ -14,7 +14,7 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
 
 #### Example
 
-![](/images/http/http-flow-009.png)
+![](/images/http/post-raw-data-to-a-flow.png)
 
 {% raw %}
 ~~~json

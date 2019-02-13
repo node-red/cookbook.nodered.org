@@ -13,7 +13,7 @@ Configure the <code class="node">HTTP Request</code> node to generate a URL dyna
 
 #### Example
 
-![](/images/http/http-flow-013.png)
+![](/images/http/set-request-url-template.png)
 
 {% raw %}
 ~~~json

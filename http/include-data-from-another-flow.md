@@ -13,7 +13,7 @@ Store data using `flow context` so that it can be retrieved within the HTTP flow
 
 #### Example
 
-![](/images/http/http-flow-005.png)
+![](/images/http/include-data-from-another-flow.png)
 
 {% raw %}
 ~~~json

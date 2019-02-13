@@ -14,7 +14,7 @@ Change the `Return` configuration of this node to `a binary buffer` to return th
 
 #### Example
 
-![](/images/http/http-flow-016.png)
+![](/images/http/get-binary-response.png){:width="556px"}
 
 {% raw %}
 ~~~json
@@ -32,4 +32,3 @@ will display the payload as a binary buffer such as:
 [ 80, 75, 3, 4, 20, 0, 6, 0, 8, 0 … ]
 ~~~
 {% endraw %}
-

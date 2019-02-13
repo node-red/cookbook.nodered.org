@@ -22,7 +22,7 @@ property and then access the specific value provided in a request using the
 
 #### Flow
 
-![](/images/http/http-flow-003.png)
+![](/images/http/handle-url-parameters.png)
 
 {% raw %}
 ~~~json

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subscribe to a Topic
+title: Subscribe to a topic
 ---
 
 ### Problem
@@ -9,11 +9,12 @@ You want to subscribe to messages on an MQTT topic.
 
 ### Solution
 
-Use the <code class="node">MQTT Input</code> node to subscribe to messages sent to a topic or a topic pattern.
+Use the <code class="node">MQTT Input</code> node to subscribe to the broker and
+receive messages published to matching topics.
 
 #### Example
 
-![](/images/mqtt/mqtt-flow-005.png)
+![](/images/mqtt/subscribe-to-topic.png)
 
 {% raw %}
 ~~~json
@@ -24,4 +25,10 @@ Use the <code class="node">MQTT Input</code> node to subscribe to messages sent 
 
 ### Discussion
 
-The <code class="node">MQTT Input</code> node with an associated <code class="node">MQTT Config</code> node connected to an MQTT broker can be used to subscribe to receive messages sent to a specific topic or MQTT topic pattern.  In the example we subscribe to all messages under the `sensors` topic level using the `sensors/#` pattern.
+The <code class="node">MQTT Input</code> node must be hardcoded with the topic filter
+to use - it cannot be changed dynamically.
+
+One possible workaround is to set the topic to an environment variable such as
+`$(MY_TOPIC)`. When the Node-RED runtime starts it will substitute the environment
+variable value into that property of the node. This does allow the topic to be changed, although
+doing so does require a restart of Node-RED to pickup changes to the environment variable.

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Receive a Parsed JSON Message
+title: Receive a parsed JSON message
 ---
 
 ### Problem
@@ -13,7 +13,7 @@ Use the <code class="node">MQTT Input</code> node and a <code class="node">JSON 
 
 #### Example
 
-![](/images/mqtt/mqtt-flow-006.png)
+![](/images/mqtt/receive-json.png)
 
 {% raw %}
 ~~~json

@@ -14,7 +14,7 @@ object.
 
 #### Example
 
-![](/images/http/http-flow-006.png)
+![](/images/http/serve-json-content.png)
 
 {% raw %}
 ~~~json
