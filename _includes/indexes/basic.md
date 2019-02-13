@@ -23,8 +23,8 @@
 
 #### Error handling
 
-- Trigger a flow when a node throws an error
-- Automatically retry an action after an error
+- [Trigger a flow when a node throws an error](/basic/trigger-on-error)
+- [Automatically retry an action after an error](/basic/retry-on-error)
 
 #### Working with data formats
 
