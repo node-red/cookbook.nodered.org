@@ -17,7 +17,7 @@ against different values corresponding to different outputs of the node.
 
 #### Example
 
-![](/images/basic/basic-flow-008.png){:width="601px"}
+![](/images/basic/route-on-property.png){:width="601px"}
 
 {% raw %}
 ~~~json

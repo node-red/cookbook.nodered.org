@@ -13,7 +13,7 @@ Use the <code class="node">Change</code> node to move a property.
 
 #### Example
 
-![](/images/basic/basic-flow-003.png)
+![](/images/basic/move-message-property.png){:width="616px"}
 
 {% raw %}
 ~~~json

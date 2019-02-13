@@ -14,7 +14,7 @@ Use the <code class="node">Range</code> node to map between the defined ranges.
 
 #### Example
 
-![](/images/basic/basic-flow-004.png)
+![](/images/basic/map-between-different-number-ranges.png){:width="616px"}
 
 {% raw %}
 ~~~json

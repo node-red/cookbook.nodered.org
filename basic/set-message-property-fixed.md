@@ -13,7 +13,7 @@ Use the <code class="node">Change</code> node to set the property of the message
 
 #### Example
 
-![](/images/basic/basic-flow-001.png)
+![](/images/basic/copy-message-property.png){:width="616px"}
 
 {% raw %}
 ~~~json

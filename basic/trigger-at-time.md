@@ -14,7 +14,7 @@ time.
 
 #### Example
 
-![](/images/basic/basic-flow-007.png)
+![](/images/basic/trigger-at-time.png){:width="530px"}
 
 {% raw %}
 ~~~json

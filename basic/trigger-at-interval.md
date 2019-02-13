@@ -15,7 +15,7 @@ interval.
 
 #### Example
 
-![](/images/basic/basic-flow-006.png)
+![](/images/basic/trigger-at-interval.png){:width="530px"}
 
 {% raw %}
 ~~~json

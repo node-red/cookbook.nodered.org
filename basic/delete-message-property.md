@@ -13,7 +13,7 @@ Use the <code class="node">Change</code> node to delete the property.
 
 #### Example
 
-![](/images/basic/basic-flow-002.png)
+![](/images/basic/delete-message-property.png){:width="616px"}
 
 {% raw %}
 ~~~json

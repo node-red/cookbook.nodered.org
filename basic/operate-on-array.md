@@ -17,7 +17,7 @@ them back into a single array.
 
 #### Example
 
-![](/images/basic/basic-flow-010.png){:width="645px"}
+![](/images/basic/operate-on-array.png){:width="645px"}
 
 {% raw %}
 ~~~json
