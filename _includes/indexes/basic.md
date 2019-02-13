@@ -16,6 +16,7 @@
 - [Route a message based on a context value](/basic/route-on-context)
 - [Perform an operation on each element in an array](/basic/operate-on-array)
 - [Trigger a flow if a message isn't received after a defined time](/basic/trigger-timeout)
+- [Send placeholder messages when a stream stops sending](/basic/trigger-placeholder)
 - [Slow down messages passing through a flow](/basic/rate-limit-messages)
 - [Handle messages at a regular rate](/basic/rate-limit-message-stream)
 - [Drop messages that have not changed value](/basic/report-by-exception)
