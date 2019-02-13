@@ -16,7 +16,7 @@ arrived after a defined interval.
 
 #### Example
 
-![](/images/basic/basic-flow-011.png){:width="550px"}
+![](/images/basic/trigger-timeout.png){:width="555px"}
 
 {% raw %}
 ~~~json
