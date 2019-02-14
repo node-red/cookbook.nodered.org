@@ -1,7 +1,6 @@
 #### Messages
 
 - [Set a message property to a fixed value](/basic/set-message-property-fixed)
-- [Set a message property to another property](/basic/copy-message-property)
 - [Delete a message property](/basic/delete-message-property)
 - [Move a message property](/basic/move-message-property)
 - [Map a property between different numeric ranges](/basic/map-between-different-number-ranges)
