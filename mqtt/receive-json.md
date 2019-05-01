@@ -25,3 +25,5 @@ Use the <code class="node">MQTT Input</code> node and a <code class="node">JSON 
 ### Discussion
 
 The payload of an <code class="node">MQTT Input</code> node is a string unless it was detected as a binary buffer.  To parse the JSON string and convert it to a JavaScript Object, use the <code class="node">JSON</code> node.
+
+Newer versions of the MQTT node (Node-RED version 0.19+) now have a select option to choose the required output format so the JSON node may no longer be required.
