@@ -52,5 +52,5 @@ from three different topics - using the most recent value from each topic.
 The node has further options to change its behaviour that have not been used in
 this recipe. For example, a timeout can be set to ensure it sends *something*
 in case one of the sensors stops sending values. If that is a concern, you may
-consider [this recipe](/basics/trigger-timeout) for providing a placeholder
+consider [this recipe](/basic/trigger-timeout) for providing a placeholder
 value.
