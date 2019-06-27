@@ -37,6 +37,6 @@ One possible workaround is to set the topic to an environment variable such as
 variable value into that property of the node. This does allow the topic to be changed, although
 doing so does require a restart of Node-RED to pickup changes to the environment variable.
 
-You can of course use MQTT wildcards, + for a single topic level or # for multiple. This allows 
-you to receive multiple topics with a single subscribe node. The message will be delivered 
-with `msg.topic` set to the actual topic received.
+You can also use MQTT wildcards, `+` for a single topic level or `#` for multiple. This allows
+you to receive multiple topics with a single node. The messages will be sent from
+the node with `msg.topic` set to the actual topic received.
