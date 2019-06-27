@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Subscribe to a topic
+slug:
+  - label: mqtt
+    url: /#mqtt
+  - subscribe
 ---
 
 ### Problem

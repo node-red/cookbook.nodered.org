@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Automatically retry an action after an error
+slug:
+  - label: error handling
+    url: /#error-handling
+  - retry
 ---
 
 ### Problem

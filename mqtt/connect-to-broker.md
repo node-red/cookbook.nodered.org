@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Connect to an MQTT Broker
+slug:
+  - label: mqtt
+    url: /#mqtt
+  - connect
 ---
 
 ### Problem

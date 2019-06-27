@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Convert to/from JSON
+slug:
+  - label: formats
+    url: /#working-with-data-formats
+  - json
+
 ---
 
 ### Problem

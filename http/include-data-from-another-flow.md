@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Include data captured in another flow
+slug:
+  - label: http
+    url: /#http-endpoints
+  - context
 ---
 
 ### Problem

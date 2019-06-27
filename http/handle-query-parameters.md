@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Handle query parameters passed to an HTTP endpoint
+slug:
+  - label: http
+    url: /#http-endpoints
+  - query parameters
 ---
 
 ### Problem

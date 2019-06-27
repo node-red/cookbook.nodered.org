@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Get binary response
+slug:
+  - label: http
+    url: /#http-requests
+  - binary
 ---
 
 ### Problem

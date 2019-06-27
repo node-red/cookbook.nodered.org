@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Set a message property to a fixed value
+slug:
+  - label: messages
+    url: /#messages
+  - set property
 ---
 
 ### Problem

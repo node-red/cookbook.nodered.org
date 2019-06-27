@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Set the URL of a request using a template
+slug:
+  - label: http
+    url: /#http-requests
+  - set url
 ---
 
 ### Problem

@@ -21,14 +21,6 @@ code.node {
     color: #555;
     white-space:nowrap;
 }
-.feedback {
-    float: right;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 3px 8px;
-    margin: 20px 0;
-    font-size: 12px;
-}
 button.show-flow-button {
     background: #aa6767;
     border: none;
@@ -57,9 +49,13 @@ button.copy-button {
 }
 </style>
 <div class="docs">
+{% assign top_url = '/' %}
+{% assign top_slug = 'cookbook' %}
+{% include breadcrumbs.html %}
   <div class="grid">
     <div class="col-3-12">
-    {% include docs-toc.html %}
+        {% include toc-recipe.html %}
+        {% include toc-footer.html %}
     </div>
     <div class="col-9-12">
       <div class="docs-content">

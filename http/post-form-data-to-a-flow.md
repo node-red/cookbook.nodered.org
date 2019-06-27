@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Post form data to a flow
+slug:
+  - label: http
+    url: /#http-endpoints
+  - post form data
 ---
 
 ### Problem

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Trigger a flow whenever Node-RED starts
+slug:
+  - label: flow control
+    url: /#flow-control
+  - trigger on start
 ---
 
 ### Problem

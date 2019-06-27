@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Receive a parsed JSON message
+slug:
+  - label: mqtt
+    url: /#mqtt
+  - subscribe json
 ---
 
 ### Problem

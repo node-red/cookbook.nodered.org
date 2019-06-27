@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Set a message property to another property
+slug:
+  - label: messages
+    url: /#messages
+  - copy property
 ---
 *** Not published ***
 

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Publish a retained message to a topic
+slug:
+  - label: mqtt
+    url: /#mqtt
+  - retained
 ---
 
 ### Problem

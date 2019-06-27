@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Post raw data to a flow
+slug:
+  - label: http
+    url: /#http-endpoints
+  - post data
 ---
 
 ### Problem

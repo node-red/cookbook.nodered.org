@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Node-RED Cookbook
 ---
 

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Post JSON data to a flow
+slug:
+  - label: http
+    url: /#http-endpoints
+  - post json
 ---
 
 ### Problem

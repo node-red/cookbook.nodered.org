@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Slow down messages passing through a flow
+slug:
+  - label: flow control
+    url: /#flow-control
+  - rate limit
 ---
 
 ### Problem

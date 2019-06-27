@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Set the query string parameters in a URL
+slug:
+  - label: http
+    url: /#http-requests
+  - set query string
 ---
 
 ### Problem

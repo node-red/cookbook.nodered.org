@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Map a property between different numeric ranges
+slug:
+  - label: messages
+    url: /#messages
+  - map range
 ---
 
 ### Problem

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Create an HTTP Endpoint
+slug:
+  - label: http
+    url: /#http-endpoints
+  - create endpoint
 ---
 
 ### Problem

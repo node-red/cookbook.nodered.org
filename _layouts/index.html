@@ -1,0 +1,20 @@
+{% include header.html %}
+<div class="docs">
+{% assign top_url = '/' %}
+{% assign top_slug = 'cookbook' %}
+{% include breadcrumbs.html %}
+  <div class="grid">
+    <div class="col-3-12">
+        {% include toc-recipe.html %}
+        {% include toc-footer.html %}
+    </div>
+    <div class="col-9-12">
+      <div class="docs-content">
+        <h1 class="docs-title">{{ page.title }}</h1>
+        {{ content }}
+        <div class="feedback"><a href="https://github.com/node-red/cookbook.nodered.org/issues/new?title=Feedback%20on%20'{{page.title| xml_escape}}'">Got feedback about this page?  Let us know!</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include footer.html %}

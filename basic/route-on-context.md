@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Route a message based on a context value
+slug:
+  - label: flow control
+    url: /#flow-control
+  - route on context
 ---
 
 ### Problem

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Move a message property
+slug:
+  - label: messages
+    url: /#messages
+  - move property
 ---
 
 ### Problem

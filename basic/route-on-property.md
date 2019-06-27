@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Route a message based on one of its properties
+slug:
+  - label: flow control
+    url: /#flow-control
+  - route on property
 ---
 
 ### Problem

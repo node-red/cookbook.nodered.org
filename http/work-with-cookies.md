@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Work with cookies
+slug:
+  - label: http
+    url: /#http-endpoints
+  - cookies
 ---
 
 ### Problem

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Delete a message property
+slug:
+  - label: messages
+    url: /#messages
+  - delete property
 ---
 
 ### Problem

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Serve a local file
+slug:
+  - label: http
+    url: /#http-endpoints
+  - serve file
 ---
 
 ### Problem

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Trigger a flow if a message isn’t received after a defined time
+slug:
+  - label: flow control
+    url: /#flow-control
+  - trigger timeout
 ---
 
 ### Problem

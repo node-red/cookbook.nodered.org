@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Get a parsed JSON Response
+slug:
+  - label: http
+    url: /#http-requests
+  - parse json
 ---
 
 ### Problem

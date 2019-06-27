@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Perform an operation on each element in an array
+slug:
+  - label: flow control
+    url: /#flow-control
+  - operate on array
 ---
 
 ### Problem

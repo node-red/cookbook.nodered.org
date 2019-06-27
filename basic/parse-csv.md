@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Parse CSV input
+slug:
+  - label: formats
+    url: /#working-with-data-formats
+  - csv
 ---
 
 ### Problem

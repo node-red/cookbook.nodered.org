@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Handle url parameters in an HTTP endpoint
+slug:
+  - label: http
+    url: /#http-endpoints
+  - url parameters
 ---
 
 ### Problem

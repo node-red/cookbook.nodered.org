@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Simple GET request
+slug:
+  - label: http
+    url: /#http-requests
+  - get
 ---
 
 ### Problem
@@ -22,6 +26,8 @@ Use the <code class="node">HTTP Request</code> node to make an HTTP request and 
 ~~~
 {: .flow}
 {% endraw %}
+
+### Discussion
 
 To find content in a web page, the Chrome browser’s ‘Inspect Element’ can be a
 useful tool.  Using the browser, right click on a page element to see the tags,

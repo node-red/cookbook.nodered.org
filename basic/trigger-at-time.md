@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Trigger a flow at a specific time
+slug:
+  - label: flow control
+    url: /#flow-control
+  - trigger at time
 ---
 
 ### Problem

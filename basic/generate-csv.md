@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Generate CSV output
+slug:
+  - label: formats
+    url: /#working-with-data-formats
+  - csv
 ---
 
 ### Problem

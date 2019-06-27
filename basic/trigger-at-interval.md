@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Trigger a flow at regular intervals
+slug:
+  - label: flow control
+    url: /#flow-control
+  - trigger at interval
 ---
 
 ### Problem

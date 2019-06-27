@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Drop messages that have not changed value
+slug:
+  - label: flow control
+    url: /#flow-control
+  - rbe
 ---
 
 ### Problem

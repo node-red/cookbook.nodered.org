@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Send placeholder messages when a stream stops sending
+slug:
+  - label: flow control
+    url: /#flow-control
+  - trigger placeholder
 ---
 
 ### Problem

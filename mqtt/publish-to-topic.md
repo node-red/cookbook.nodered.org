@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Publish messages to a topic
+slug:
+  - label: mqtt
+    url: /#mqtt
+  - publish
 ---
 
 ### Problem

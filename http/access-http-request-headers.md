@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Access HTTP request headers
+slug:
+  - label: http
+    url: /#http-endpoints
+  - headers
 ---
 
 ### Problem

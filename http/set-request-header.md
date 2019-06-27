@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Set a request header
+slug:
+  - label: http
+    url: /#http-requests
+  - set header
 ---
 
 ### Problem

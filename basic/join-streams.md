@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Create a single message from separate streams of messages
+slug:
+  - label: flow control
+    url: /#flow-control
+  - join streams
 ---
 
 ### Problem

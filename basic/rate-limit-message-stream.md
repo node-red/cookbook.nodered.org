@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Handle messages at a regular rate
+slug:
+  - label: flow control
+    url: /#flow-control
+  - rate limit
 ---
 
 ### Problem

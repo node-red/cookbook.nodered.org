@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Trigger a flow when a node throws an error
+slug:
+  - label: error handling
+    url: /#error-handling
+  - trigger on error
 ---
 
 ### Problem

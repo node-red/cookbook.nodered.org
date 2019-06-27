@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Serve JSON content
+slug:
+  - label: http
+    url: /#http-endpoints
+  - serve json
 ---
 
 ### Problem

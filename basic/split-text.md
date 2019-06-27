@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Split text into one message per line
+slug:
+  - label: formats
+    url: /#working-with-data-formats
+  - text
 ---
 
 ### Problem

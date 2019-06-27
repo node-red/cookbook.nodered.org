@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Convert to/from XML
+slug:
+  - label: formats
+    url: /#working-with-data-formats
+  - xml
 ---
 
 ### Problem
