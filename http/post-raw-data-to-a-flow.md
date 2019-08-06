@@ -41,7 +41,7 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
 ### Discussion
 
 When the <code class="node">HTTP In</code> node receives a request with the `Content-Type`
-header set to `text/plain` it makes the body of the available as `msg.payload`:
+header set to `text/plain` it makes the body available as `msg.payload`:
 
 ~~~javascript
 var name = msg.payload;
