@@ -9,7 +9,7 @@ slug:
 
 ### Problem
 
-You want to raw text data to a flow.
+You want to post raw text data to a flow.
 
 ### Solution
 
