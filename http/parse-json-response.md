@@ -13,7 +13,7 @@ You want to return the JSON response of an HTTP request as a parsed Javascript o
 
 ### Solution
 
-The <code class="node">HTTP Request</code> node will return a the body of a JSON response in the `msg.payload` as a string by default.
+The <code class="node">HTTP Request</code> node will return the body of a JSON response in the `msg.payload` as a string by default.
 Change the `Return` configuration of this node to `a parsed JSON object` to parse the JSON response in the `msg.payload` that
 can be easily accessed by downstream nodes.
 
