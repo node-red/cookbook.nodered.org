@@ -13,7 +13,7 @@ You want to get a binary HTTP response from an HTTP request.
 
 ### Solution
 
-The <code class="node">HTTP Request</code> node will return a the body of a response in the `msg.payload` as a string by default.
+The <code class="node">HTTP Request</code> node will return the body of a response in the `msg.payload` as a string by default.
 Change the `Return` configuration of this node to `a binary buffer` to return the response as a binary buffer in the `msg.payload`.
 
 #### Example
