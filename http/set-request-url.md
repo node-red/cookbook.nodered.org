@@ -65,6 +65,6 @@ To return an RSS feed for cars for sale in Vancouver on Craigslist.  It returns 
 ~~~
 {% endraw %}
 
-#### Discussion
+### Discussion
 
 An <code class="node">XML</code> node can be added after the <code class="node">HTTP Request</code> to change the XML RSS content returned to a JavaScript object for easy access to the data.

@@ -47,6 +47,6 @@ The JSON output from this API in the debug panel will look as follows:
 ~~~
 {% endraw %}
 
-#### Discussion
+### Discussion
 
 By default, mustache will escape any HTML entities in the values it substitutes. To ensure HTML escaping is not used in your URL use `{% raw %}{{{triple}}}{% endraw %}` braces.
