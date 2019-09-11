@@ -9,7 +9,7 @@ You want to use LDAP authentication when Node-RED users login to Node-RED editor
 
 ### Solution
 
-Install LDAP authentication modue, [node-red-auth-contrib-ldap](https://www.npmjs.com/package/node-red-auth-contrib-ldap) and configure LDAP server information in settings.js.
+Install LDAP authentication module, [node-red-auth-contrib-ldap](https://www.npmjs.com/package/node-red-auth-contrib-ldap) and configure LDAP server information in settings.js.
 
 #### Example
 
