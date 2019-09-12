@@ -13,7 +13,7 @@ You want to set the topic of a published MQTT message dynamically.
 
 ### Solution
 
-Set the `topic` message property of <code class="node">Inject</code> node, before sending the message to an <code class="node">MQTT Output</code> node.
+Set the `topic` message property, before sending the message to an <code class="node">MQTT Output</code> node.
 
 #### Example
 
