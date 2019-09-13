@@ -26,6 +26,9 @@ Set the `topic` message property, before sending the message to an <code class="
 {: .flow}
 {% endraw %}
 
+In this example, the <code class="node">Inject</code> node sets the `msg.topic`,
+but you don't always need to use an inject node to do this.
+
 ### Discussion
 
 Ensure the `Topic` field in the <code class="node">MQTT Output</code> configuration dialog is left blank to use the `topic` message property.
