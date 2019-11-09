@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A short (<10 words) summary of the task addressed
+title: Connect to an MQTT broker with TLS encryption
 slug:
   - label: mqtt
     url: /#mqtt
