@@ -95,7 +95,7 @@ Mosquitto allows you to create multiple ports for connectivity. This lets you us
 
 The folder `/etc/mosquitto/conf.d/` can contain any number of config files which will all be applied so that you can split your custom changes into separate files if you like.
 
-Just remember that once you use a custom file to set ports, the default port (1883) is no longer active so you have to specify that as well. The standard port for MQTT over TLS (MQTTS) is 8883. You can, however, use other ports if they are not in use. Make sure you use a port number greater than 1024 otherwise everything that wants to use that port has to have root privalages.
+Just remember that once you use a custom file to set ports, the default port (1883) is no longer active so you have to specify that as well if you still want it to be active. The standard port for MQTT over TLS (MQTTS) is 8883. You can, however, use other ports if they are not in use. Make sure you use a port number greater than 1024 otherwise the broker must be run with root privalages which is not recommended for security reasons.
 
 You can check which ports the broker has opened with the command:
 
