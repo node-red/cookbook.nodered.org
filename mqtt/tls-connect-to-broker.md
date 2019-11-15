@@ -33,7 +33,7 @@ This assumes that you are using Let's Encrypt or other certificates signed by a 
 
 Note the entries in `<...>` which need to be replaced with your own folders and files.
 
-This goes into a file of any name of the form `*.conf` in the folder `/etc/mosquitto/conf.d/`. So you have to edit it with root privalages (e.g. using `sudo`).
+For Linux installations, this goes into a file of any name of the form `*.conf` in the folder `/etc/mosquitto/conf.d/`. So you have to edit it with root privalages (e.g. using `sudo`). On other platforms, please refer to the [Mosquitto configuration documentation](https://mosquitto.org/man/mosquitto-8.html).
 
 {{ page.lcb }}% raw %}
 ~~~text
