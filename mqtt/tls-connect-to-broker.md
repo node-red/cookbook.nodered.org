@@ -75,7 +75,7 @@ Notes
 
 * You need to use the IP name rather than IP address in the server name if using Let's Encrypt (otherwise the certificate isn't valid).
 * You need to change the server name to a url, prefixed with `mqtts://`. This disables the port field, I change that first to `8883` to remind me what the correct port will be.
-* You **do not** need to set the "Enable secure connection" flag. That lets you authenticate the Node-RED client connection to the broker (if you set the require_certificate to true for example).
+* You **do not** need to set the "Enable secure connection" flag unless you want to authenticate the Node-RED client to the broker (if you set the require_certificate to true for example).
 
 ### Discussion
 
