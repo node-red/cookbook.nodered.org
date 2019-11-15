@@ -54,7 +54,7 @@ keyfile /<path-to-LE-cert-files>/<private-key-name>.key
 ## Forces use of modern version of TLS to avoid security issues
 tls_version tlsv1.2
 
-## Forces ALL CLIENTs to provide a valid certificate - change the node config to allow this from NR
+## Forces ALL CLIENTs using this port to provide a valid certificate - change the node config to allow this from NR
 #require_certificate true
 ~~~
 {: .shell}
