@@ -23,7 +23,7 @@ Alter the <code class="node">MQTT Config</code> node, changing the "Server" name
 
 **Valid Certificate Creation**
 
-THe easiest approach for this is to use [Let's Encrypt](). This is beyond the scopy of this article but there are plenty of examples and tutorials available on the Internet. For this to work successfully, you also need to be able to use a registered domain name on your internal network because you cannot use Let's Encrypt with IP addresses or non-public domain names.
+THe easiest approach for this is to use [Let's Encrypt](https://letsencrypt.org/getting-started/). This is beyond the scope of this article but there are plenty of examples and tutorials available on the Internet. For this to work successfully, you also need to be able to use a registered domain name on your internal network because you cannot use Let's Encrypt with IP addresses or non-public domain names.
 
 Alternatively, you can create a self-signed set of certificates. Again, this is beyond the scope of the article. However, you may need to create a trusted root certificate and provide its public cert instead of the one that Debian provides that is listed in the configuration below.
 
