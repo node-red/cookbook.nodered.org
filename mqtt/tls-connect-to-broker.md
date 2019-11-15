@@ -60,12 +60,14 @@ tls_version tlsv1.2
 {: .shell}
 {{ page.lcb }}% endraw %}
 
-After making these changes, you have to restart the mosquitto broker using the command:
+After making these changes, you have to restart the mosquitto broker. On Linux, you can usr the command:
 
 ~~~text
 [~]$ sudo systemctl restart mosquitto
 ~~~
 {: .shell}
+
+Other platforms, including Docker-based installations may be different.
 
 **<code class="node">MQTT Config</code> node configuration**
 
