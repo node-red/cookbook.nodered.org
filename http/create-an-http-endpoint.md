@@ -56,3 +56,10 @@ further customize the response - they are covered in other recipes.
 The <code class="node">Template</code> node provides a convenient way to embed
 a body of content into a flow. It may be desirable to maintain such static content
 outside of the flow.
+
+If you have turned on http authentication then you may need add your userid and password
+to the curl command. e.g.
+
+~~~text
+[~]$ curl -u userid:password  http://localhost:1880/hello 
+~~~
