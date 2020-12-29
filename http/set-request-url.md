@@ -26,7 +26,7 @@ Set the URL property of the <code class="node">HTTP Request</code> node.
 {: .flow}
 {% endraw %}
 
-The <code class="node">Inject</code> node generates a string URL, and the <code class="node">Change</code> node sets the msg.URL property.  In this flow the URL is set to:
+The <code class="node">Inject</code> node generates a string URL, and the <code class="node">Change</code> node sets the msg.url property.  In this flow the URL is set to:
 
 {% raw %}
 ~~~text
