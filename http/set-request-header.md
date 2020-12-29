@@ -22,13 +22,12 @@ message sent to the <code class="node">HTTP request</code> node.
 
 {% raw %}
 ~~~json
-[{"id":"92272f91.20a43","type":"inject","z":"c9a81b70.8abed8","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":120,"y":760,"wires":[["af92df2f.3032e"]]},{"id":"64da113d.24a75","type":"http request","z":"c9a81b70.8abed8","name":"post to FRED","method":"POST","ret":"txt","url":"http://mike.fred.sensetecnic.com/api/test","tls":"","x":520,"y":760,"wires":[["31ab53be.5111dc"]]},{"id":"af92df2f.3032e","type":"function","z":"c9a81b70.8abed8","name":"set payload and headers","func":"msg.payload = \"data to post\";\nmsg.headers = {};\nmsg.headers['X-Auth-User'] = 'mike';\nmsg.headers['X-Auth-Key'] = 'fred-key';\n\nreturn msg;","outputs":1,"noerr":0,"x":310,"y":760,"wires":[["64da113d.24a75"]]},{"id":"31ab53be.5111dc","type":"debug","z":"c9a81b70.8abed8","name":"","active":true,"console":"false","complete":"false","x":690,"y":760,"wires":[]}]
+[{"id":"cb1dfcde.fd153","type":"function","z":"124f654c.7a7c6b","name":"set payload and headers","func":"msg.payload = \"data to post\";\nmsg.headers = {};\nmsg.headers['X-Auth-User'] = 'mike';\nmsg.headers['X-Auth-Key'] = 'fred-key';\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":275,"y":600,"wires":[["e44209e7.752698"]]},{"id":"dcf34aab.218928","type":"inject","z":"124f654c.7a7c6b","name":"","repeat":"","crontab":"","once":false,"topic":"","payload":"","payloadType":"date","x":85,"y":600,"wires":[["cb1dfcde.fd153"]]},{"id":"e44209e7.752698","type":"http request","z":"124f654c.7a7c6b","name":"post to HttpBin","method":"POST","ret":"obj","paytoqs":"ignore","url":"https://httpbin.org/post","tls":"","persist":false,"proxy":"","authType":"","x":485,"y":600,"wires":[["ee306582.f0dde8"]]},{"id":"ee306582.f0dde8","type":"debug","z":"124f654c.7a7c6b","name":"","active":true,"console":"false","complete":"false","x":655,"y":600,"wires":[]}]
 ~~~
 {: .flow}
 {% endraw %}
 
-In this example we set the `X-Auth-User` and `X-Auth-Key` request headers to call a
-private HTTP input node on the FRED Node-RED cloud service.
+In this example we set the `X-Auth-User` and `X-Auth-Key` request headers to call public HttpBin post test service.
 
 The code in the <code class="node">Function</code> node below adds these additional message
 fields by adding a `msg.headers` object, and setting the header field/values in this object as shown.
@@ -43,3 +42,5 @@ return msg;
 ~~~
 {: .javascript}
 {% endraw %}
+
+These can be seen by expanding the debug object headers twistie - as the test service echos back the request.
