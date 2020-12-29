@@ -17,6 +17,8 @@ call an api to retrieve its current state.
 Use an <code class="node">Inject</code> node configured to repeat at the desired
 interval.
 
+To stop - you must re-configure the node and set Repeat to none. Click done to save the change and deploy.
+
 #### Example
 
 ![](/images/basic/trigger-at-interval.png){:width="530px"}
