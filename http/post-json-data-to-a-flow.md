@@ -9,7 +9,7 @@ slug:
 
 ### Problem
 
-You want to post JSON data to a flow.
+You want to post JSON data in to a flow.
 
 ### Solution
 

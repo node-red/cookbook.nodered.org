@@ -9,7 +9,7 @@ slug:
 
 ### Problem
 
-You want to post form data to a flow.
+You want to post form data in to a flow.
 
 ### Solution
 
