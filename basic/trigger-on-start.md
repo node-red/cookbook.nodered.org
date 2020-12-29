@@ -16,7 +16,11 @@ that Node-RED has been restarted.
 
 ### Solution
 
-Use an <code class="node">Inject</code> node configured to fire once on start.
+Use an <code class="node">Inject</code> node configured to fire once on start. Double click the inject node to open it - scroll down and tick the checkbox
+
+  [&check;] Inject once after [0.1] seconds, then
+
+Click Done to save the change.
 
 #### Example
 
