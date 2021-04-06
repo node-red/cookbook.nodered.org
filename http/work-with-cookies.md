@@ -19,6 +19,7 @@ The messages sent by the <code class="node">HTTP In</code> node include the
 The <code class="node">HTTP Response</code> node will use the `msg.cookies` property
 in order to set or clear cookies.
 
+The <code class="node">HTTP Request</code> node will accept an input property of `msg.cookies` containing the cookies to be sent with that request.
 #### Example
 
 ![](/images/http/work-with-cookies.png)
@@ -72,3 +73,16 @@ The valid options include:
 - `value` - (String) the value to use for the cookie
 
 To delete a cookie, set its value to null.
+
+#### URL Encoding of Cookies
+The <code class="node">HTTP Request</code> node will  accept a property of `encode : false` within the cookie which will avoid the value being URL Encoded when sent in the request
+
+~~~javascript
+msg.cookies = {
+  myCookie : {
+      Path : "/", 
+      value : "ysjLVJA==",
+      encode : false
+  }
+ }
+ ~~~
