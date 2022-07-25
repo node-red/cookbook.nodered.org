@@ -30,7 +30,7 @@ Use the <code class="node">Range</code> node to map between the defined ranges.
 ### Discussion
 
 The <code class="node">Range</code> node can be used to linearly scale between two
-different numberic ranges.
+different numeric ranges.
 
 By default, the result is not constrained to the range defined in the node. This means
 using the voltage example above, a value of 2046 would map to a result of 10.
