@@ -32,8 +32,7 @@ and an associated <code class="node">MQTT Config</code> node to connect to an MQ
 Many users will run an MQTT broker such as [mosquitto](http://mosquitto.org) on
 the same Raspberry Pi or PC that Node-RED is running on.  Once you have an
 <code class="node">MQTT</code> input or output node in your flow, you create an
-<code class="node">MQTT Config</code> node by clicking on the `Server` configuration
- pop-up and selecting `Add an MQTT broker...`.  Assuming your broker is open,
+<code class="node">MQTT Config</code> node by double clicking on the node, then clicking on the pencil button to the right of the `Add an MQTT broker...` dropdown.  Assuming your broker is open,
  set the server host to `localhost` and leave the port set to `1883`.
 
 To connect to non-local, secured brokers, other <code class="node">MQTT Config</code>
